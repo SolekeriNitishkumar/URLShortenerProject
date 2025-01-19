@@ -16,9 +16,9 @@ Prerequisites
 
 Setup and Execution Instructions
 ---------------------------------
-1. Clone the Repository or Download the Zip file from github using " git clone <repository_url>"
-2. Navigate to "shortend_url" Directory in any code editor ( Preferred Visual Studio Code)
-3. Install the Dependencies if Prerequisites are not installed using "pip install django djangorestframework" (Ignore if already installed)
+1. Clone the Repository from github using " git clone <repository_url>" or Download the Zip file. 
+2. Navigate to "shortend_url" Directory in any code editor ( Preferred Visual Studio Code).
+3. Install the Dependencies if Prerequisites are not installed using "pip install django djangorestframework" (Ignore if already installed).
 4. Apply DB Migrations using below command in terminal
    - py manage.py makemigrations
    - python manage.py migrate
@@ -35,7 +35,7 @@ URL'S or API Endpoints Present
 3. GET /analytics/<short_url>
 
 
-Request and Response Example for API Endpoint
+Request and Response Example for Each API Endpoint
 ----------------------------------------------
 1. POST /shorten
 
