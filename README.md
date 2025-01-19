@@ -14,6 +14,33 @@ Prerequisites
 2. Django (4.0 or higher)
 3. Django Rest Framework
 
+Project Structure
+------------------
+URLShortenerProject
+   -shortened_url/
+          - manage.py
+          - shortened_url/
+                - __init__.py
+                - asgi.py
+                - settings.py
+                - urls.py
+                - wsgi.py
+          - shortened_url_app/
+                - __init__.py
+                - admin.py
+                - apps.py
+                - models.py
+                - serializers.py
+                - urls.py
+                - views.py
+                - tests.py
+                - migrations
+          - db.sqlite3
+   - Output Results.docx
+   - Readme.md
+   
+
+
 Setup and Execution Instructions
 ---------------------------------
 1. Clone the Repository from github using " git clone <repository_url>" or Download the Zip file. 
